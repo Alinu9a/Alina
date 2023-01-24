@@ -41,7 +41,7 @@ recur()
 	done
 }
 
-if [ -d $1 ].
+if [ -d $1 ]
 then
 	recur $1
 fi
